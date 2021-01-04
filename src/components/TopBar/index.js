@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   Wrapper,
   Title,
@@ -8,10 +8,10 @@ import {
   Option,
   Subtitle,
   CitiesList,
-} from "./styled";
-import { TouchableOpacity } from "react-native";
-import ImgIcon from "../../assets/sun.png";
-import CITIES_DATA from "../../helpers/citiesData";
+} from './styled';
+import { TouchableOpacity } from 'react-native';
+import ImgIcon from '../../assets/sun.png';
+import CITIES_DATA from '../../helpers/citiesData';
 
 const TopBar = ({ changeLocation }) => {
   const [dropdownVisible, setDropDownVisible] = useState(false);

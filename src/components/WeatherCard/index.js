@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Wrapper,
   TitleWrapper,
@@ -7,7 +7,7 @@ import {
   Image,
   WeatherWrapper,
   Card,
-} from "./styled";
+} from './styled';
 
 const WeatherCard = ({ currentLocation, weatherData }) => {
   return (
